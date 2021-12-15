@@ -1,151 +1,133 @@
-class user_input:
+class swiggy:
     def __init__(self):
-        self.area = input("Enter area: ")
-
-    def h_dis(self,area):
-        if self.area == "Avadi":
-            self.hot_rate = [{"hotel":"thalapakathi biryani", "rating":"5-star"},
-                        {"hotel":"Guesto Express", "rating":"4.5-star"},
-                        {"hotel":"Quality resturant", "rating":"4.3-star"},
-                        {"hotel":"A2B", "rating":"4.5-star"}]
-        elif self.area == "Porur":
-            self.hot_rate = [{"hotel":"Arcod biryani", "rating":"5-star"},
-                        {"hotel":"Manoj bhavan", "rating":"4.9-star"},
-                        {"hotel":"Palmshore", "rating":"4.5-star"},
-                        {"hotel":"Star briyani", "rating":"4.5-star"}]
-        elif self.area == "Thiruvanmaiyur":
-            self.hot_rate = [{"hotel":"Salem RR Biryani", "rating":"5-star"},
-                        {"hotel":"Shawarma Forest", "rating":"4.7-star"},
-                        {"hotel":"SS hydrabad", "rating":"4.4-star"},
-                        {"hotel":"Yamoideen", "rating":"4.3-star"}]
-        elif self.area == "Tharamani":
-            self.hot_rate = [{"hotel":"Vaniyambadi Biryani", "rating":"5-star"},
-                        {"hotel":"Writes's cafe", "rating":"4.5-star"},
-                        {"hotel":"Hotel Saravana Bhavan", "rating":"4.4-star"},
-                        {"hotel":"wangs Kitchen", "rating":"4.3-star"}]
-        elif self.area == "KK Nagr":
-            self.hot_rate = [{"hotel":"xyz ", "rating":"5-star"},
-                        {"hotel":"Waf Bites", "rating":"4.9-star"},
-                        {"hotel":"Briyani Junction", "rating":"4.5-star"},
-                        {"hotel":"Star briyani", "rating":"4.5-star"}]
-        elif self.area == "T nagar":
-            self.hot_rate = [{"hotel":"Salem RR Briyani", "rating":"5-star"},
-                        {"hotel":" Absolute Barbecues T-Nagar", "rating":"4.7-star"},
-                        {"hotel":"COAL BARBECUES", "rating":"4.4-star"},
-                        {"hotel":"Yamoideen", "rating":"4.3-star"}]
-        elif self.area == "Iyyappanthangal":
-            self.hot_rate = [{"hotel":"Gourmet", "rating":"5-star"},
-                        {"hotel":"MOGLEE S KITCHEN", "rating":"4.5-star"},
-                        {"hotel":"Maa Chandi Hotel", "rating":"4.4-star"},
-                        {"hotel":"Shri Balaji Hotel", "rating":"4.3-star"}]
-        elif self.area == "Valasaravakkam":
-            self.hot_rate = [{"hotel":"Hotel Valasai Subha", "rating":"5-star"},
-                        {"hotel":"Dominos", "rating":"4.9-star"},
-                        {"hotel":"KFC", "rating":"4.5-star"},
-                        {"hotel":"Star briyani", "rating":"4.5-star"}]
-        elif self.area == "Vadapalani":
-            self.hot_rate = [{"hotel":"The Waterfall Restaurant", "rating":"5-star"},
-                        {"hotel":"Madurai Kumar Mess", "rating":"4.7-star"},
-                        {"hotel":"SS hydrabad", "rating":"4.4-star"},
-                        {"hotel":"KFC", "rating":"4.3-star"}]
-        elif self.area == "Guindy":
-            self.hot_rate = [{"hotel":"NALAN'S GRAVY", "rating":"5-star"},
-                        {"hotel":"The Coffee Place", "rating":"4.5-star"},
-                        {"hotel":"The Scallion", "rating":"4.4-star"},
-                        {"hotel":"Vasco's", "rating":"4.3-star"}]
+        self.__name=str(input("enter your first name"))
+        self.__lastname=str(input("enter your last name"))
+        self.__city=str(input("enter your city name"))
+        if(self.__city=="chennai"):
+            print("we are available in",self.__city)
         else:
-            print("Unnable to delivery to your location")
-    def disp(self):        
-        for i in self.hot_rate:
+            print("swiggy not available in",self.__city,"swiggy is available in only chennai")
+            raise cityerror("cityerror")
+        self.__phonenumber=(input("enter 10 digits phone number"))
+        if len(self.__phonenumber)==10:
+            print("phone number is valid")
+        else:
+            print("number is invalid")
+            raise numbererror("invalid number")
+        self.__address=str(input("enter your address"))
+
+    def areas(self):
+        print("self.__areas available")
+        print("1.Porur\n2.Mannadi\n3.Tnagar\n4.perungudi\n5.Avadi")
+        self.__area=int(input("please enter number of the area"))
+        if self.__area==1:
+            print("hotels available in Porur")
+            self.__hotel_availables = [{"hotel":"ambur biryani", "rating":"5-star"},
+                             {"hotel":"ibaco", "rating":"4.5-star"},
+                             {"hotel":"sri krishna", "rating":"4.3-star"},
+                             {"hotel":"A2B", "rating":"4.5-star"}]
+            
+        elif self.__area==2:
+            print("hotels available in Mannadi")
+            self.__hotel_availables = [{"hotel":"dindigul biryani", "rating":"5-star"},
+                             {"hotel":"arcod biryani", "rating":"4.5-star"},
+                             {"hotel":"hotel aryas", "rating":"4.3-star"},
+                             {"hotel":"pizza hut", "rating":"4.5-star"}]
+        elif self.__area==3:
+            print("hotels available in nagar")
+            self.__hotel_availables = [{"hotel":"hyderabadi  biryani", "rating":"5-star"},
+                             {"hotel":"meat and eat", "rating":"4.5-star"},
+                             {"hotel":"dominos", "rating":"4.3-star"},
+                             {"hotel":"cfc", "rating":"4.5-star"}]
+        elif self.__area==4:
+            print("hotels available in perungudi")
+            self.__hotel_availables = [{"hotel":"vaniyambadi biryani", "rating":"5-star"},
+                             {"hotel":"gourmet", "rating":"4.5-star"},
+                             {"hotel":"KFC", "rating":"4.3-star"},
+                             {"hotel":"mughal biryani", "rating":"4.5-star"}]
+        elif self.__area==5:
+            print("hotels available in Avadi")
+            self.__hotel_availables = [{"hotel":"thalapakatti biryani", "rating":"5-star"},
+                             {"hotel":"muniyandi vilas", "rating":"4.5-star"},
+                             {"hotel":"akash appam", "rating":"4.3-star"},
+                             {"hotel":"aaa", "rating":"4.5-star"}]
+        else:
+            print("enter valid number")
+            
+    
+    def display(self):
+        for i in self.__hotel_availables:
             f={}
             f=i
-            for k,v in f.items():
-                print(k,"\t--- \t",v)
-                print("--|-------------------|-------------")
-
-class hot_sel(user_input):
-    def __init__(self):
-        self.uh = input("Enter hotel: ")
-        self.h=["hotel1","hotel2","hotel3","hotel4"]
-        
-
-    def di(self):
-        for i in self.h:
-            print("\n",i)
-                
-    def uh_val(self):
-        for i in self.h:
-            if (i != self.uh):
-                raise ValueError("This hotel Currently not accepting orders")
-            
-class dish(hot_sel):
-    def __init__(self):
-        self.f=["Idly","Chicken Briyani","Chicken Manchuriyan","Parotta","Dosa"]
-        self.disp()
-        self.user_dis= input("Enter dish: ")
-
-    def dish_val(self):
-        for i in self.f:
-            if i == self.user_dis:
-                print("Packing....")
-            else:
-                raise ValueError ("dish is currently unavailable")
-                #break
-            
-    def disp(self):
-        print("\n Available dish")
-        print("---------------")
-        for i in self.f:
+            for p,q in f.items():
+                print(p,"--",q)
+        self.__hotel=str(input("enter hotel name"))
+        self.__hotelname=("thalapakatti biryani","muniyandi vilas","akash appam","aaa","vaniyambadi biryani","gourmet","KFC","mughal biryani","hyderabadi biryani","meat and eat","dominos",
+                   "cfc","dindigul biryani","arcod biryani","hotel aryas","pizza hut","ambur biryani","ibaco","sri krishna","A2B")
+        self.dishes={"mutton biryani:200","dosa:30","chicken biryani:100","parotta:20"}
+        for i in self.__hotelname:
+            if i ==self.__hotel:
+                print(i)
+        for i in self.dishes:
             print(i)
-class swiggy:
-    def __init__(self,area,hotel,dish):
-        self.p = area
-        self.h = hotel
-        self.d = dish
+        self.__a=200
+        self.__b=30
+        self.__c=100
+        self.__d=20
+        self.__foodname=str(input("enter food name"))
+        self.__quantity=int(input("enter quantity"))
+        if self.__foodname=="mutton biryani":
+            self.__totalamount=self.__quantity*self.__a
+            print("total amount",self.__totalamount)
+        elif self.__foodname=="dosa":
+            self.__totalamount=self.__quantity*self.__b
+            print("total amount",self.__totalamount)
+        elif self.__foodname=="chicken biryani":
+            self.__totalamount=self.__quantity*self.__c
+            print("total amount",self.__totalamount)
+        elif self.__foodname=="parotta":
+            self.__totalamount=self.__quantity*self.__d
+            print("total amount",self.__totalamount)
+        else:
+            raise error("enter valid food")
+    def Display(self):
+        print("|************Order Details*************|")
+        print("|Name:",self.__name,"   |")
+        print("|--------------------------------------|")
+        print("|Address:",self.__address,"   |")
+        print("|--------------------------------------|")
+        print("|city",self.__city,"   |")
+        print("|--------------------------------------|")
+        print("|phonenumber",self.__phonenumber)
+        print("|--------------------------------------|")
+        print("|total bill amount",self.__totalamount,"   |")
+        print("|--------------------------------------|")
+
+    def payment(self):
+        print("select payment method\n","1.upi\n","2.Cash on delivery")
+        self.__method=int(input("enter 1 or 2:"))
+        if self.__method==1:
+            upi=str(input("enter upi id"))
+            if len(upi)>=5:
+                pin=str(input("enter pin"))
+                if len(pin)==4:
+                    print("verification successful")
+                else:
+                    raise PinError("enter 4 digits of pin")
+            else:
+                raise UpiError("enter valid upi")
+        elif self.__method==2:
+            print("thank you")
+        else:
+            raise error("method error")
+        print("YOUR ORDER IS PLACED SUCCESSFULLY")
+        print("ORDER WILL BE DELIVERED IN 30 MINS")
+        print("****THANK YOU****")
         
-    def beforeorder(self):
-        print("order details:","from",self.p,"Hotel",self.h,"Dish",self.d)
+            
 
-    def display(self):
-        print("order confirmed :",self.d," \n @",self.h," in ",self.p,"Mr.Suresh is picking up your order")
-
-class user_dis(swiggy):
-    def __init__(self):
-        self.bill = 500
-        self.sgst = 5
-        self.cgst = 10
-        self.tbil = (self.bill,self.sgst,self.cgst)
-        self.totalbil = (self.bill+self.sgst+self.cgst)
-
-    def delivery(self):
-        self.addr = input("Enter address: ")
-
-
-    def addvalid(self):
-        if isinstance (self.addr,str):
-            if isinstance(len(self.addr) <= 25):
-                raise ValueError ("enter valid address")
-            elif self.addr != None:
-                raise ValueError ("invalid address")
-                
-        
-    def display(self):
-        print("Delivary address : ",self.addr)
-        print("Recipt",self.tbill
-              )
-        print("Total bill Rs.",self.total)
-        ob1.display()
-
-
-ob = user_input()
-ob.h_dis(ob.area)
-ob.disp()
-h = hot_sel()
-d = dish()
-d.dish_val()
-ob1 = swiggy(ob.area,h.uh,d.user_dis)
-ob1.beforeorder()
-ob2 = user_dis()
-ob2.delivery()
-ob2.addvalid
-ob2.display()
+ahamed=swiggy()
+ahamed.areas()
+ahamed.display()
+ahamed.Display()
+ahamed.payment()
