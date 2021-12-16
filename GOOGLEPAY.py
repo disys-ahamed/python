@@ -11,7 +11,7 @@ class gpay:
         else:
             raise TypeError("Invalid name")
         
-    def check_mnumber(self):
+    def check_number(self):
         self.__usernumber = input("Mobile Number : ")
         if type(self.__usernumber)==str:
             if len(self.__usernumber)==10:
@@ -111,7 +111,7 @@ class payment(bank):
                 
 user = gpay()
 user.check_name()
-user.check_mnumber()
+user.check_number()
 user.check_mail()
 user.check_upi()
 user1=bank()
