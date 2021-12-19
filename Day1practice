@@ -571,3 +571,26 @@ class college(school):
 art=college("be","ece",9)
 art.job("disys")
 art.higherclass(987,"asd")
+
+class Disys:
+    def __init__(self,vacc):
+        self.vac=[]
+        self.vac.append(vacc)
+        self.count=0
+    def logic(self):
+        for i in self.vac:
+            if i["vaccine"]==None:
+                self.count=self.count+1
+            else:
+                continue
+
+        print(self.vac)
+    def __del__(self):
+        print("deallocation")
+        del self.vac
+        del self.count[]
+
+jb=Disys({'name':'jamesbond','empid':'007','vaccine':None})
+jd=Disys({'name':'abdul','empid':'005','vaccine':'1st dose'})
+jd.logic()
+
