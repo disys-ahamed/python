@@ -544,3 +544,30 @@ class LICPOLICY:
 saravanan=LICPOLICY()
 print(saravanan.name,saravanan.Date,saravanan.PolicyNo)
 
+class school:
+    def __init__(self,sslc,sn):
+        self.__sslcmark=sslc
+        self.schoolname=sn
+        print(self.__sslcmark,self.schoolname)
+    def  higherclass(self,hsc,hn):
+        self.hscmark=hsc
+        self.schoolnamee=hn
+        print(self.hscmark,self.schoolnamee)
+
+
+class college(school):
+    def __init__(self,a,b,c:int):
+     if(c is not int):
+        raise TypeError("ahmed made")
+     super().__init__(486,"dss")
+     self.degree=a
+     self.stream=b
+     self.cgpa=c
+     print(self.degree,self.stream,self.cgpa)
+
+    def job(self,f):
+     self.companyname=f
+
+art=college("be","ece",9)
+art.job("disys")
+art.higherclass(987,"asd")
