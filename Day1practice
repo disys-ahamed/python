@@ -1,0 +1,530 @@
+def aadharcard():
+    FirstName="ak"
+    LastName="k"
+    DOB="24/01/2001"
+    PhoneNo=9507364747
+    BloodGroup="O+"
+    Address="no;11"
+    age=20
+    print(FirstName,BloodGroup,PhoneNo,Address)
+    return
+aadharcard()
+
+def watch():
+    Type="AnalogWatch"
+    Case="FibreCasewithSteelBack"
+    Dial="Round Dial"
+    Strap="Fibre"
+    Clasp="buckle"
+    Occasion="Casual"
+    price=399
+    warranty="2months"
+    print(Type,Case,Occasion)
+    return
+watch()
+
+class LICPOLICY:
+    name="saravanan"
+    BranchCode=309
+    Date="07/11/2013-12:51"
+    AddressofBranchoffice="no11"
+    Totalcost=6713
+    PolicyNo=364164915
+    Doc="02/04/2009"
+    DueDate="04/13"
+    Premiumamount=6426.00 
+    LateFee=287.20
+    Loaninterest="Due 00/0000 to 00/0000"
+    TotalRs=6713.20
+    NextDue="04/2014"
+saravanan=LICPOLICY()
+print(saravanan.name,saravanan.Date,saravanan.PolicyNo)
+
+def vehicledetails():
+    vehicleno="TN49A9"
+    ClassisNo=5793603
+    EngineNo="0G3N72505757"
+    Address="No 11"
+    ClassofVehicle="LMV (CAR)"
+    maker="Maruthi SuzUKI India LTD"
+    NoofCylinder=3
+    WeightKG=740 
+    wheelBase=2360
+    SeatingCapacity=5
+    Fuel="Petrol"
+    Cubicylinder=796
+    print(vehicleno,ClassisNo,EngineNo)
+    return
+vehicledetails()
+
+def traveldetails():
+    Transportdetails="Tamilnadu  State Transport Corporation Limited"
+    BusDepoName="Kanchipuram/01"
+    TicketNumber=9876578
+    From="Chennai"
+    To="pondichery"
+    Qty=2
+    cost=33.00
+    Total=33.00
+    BusNo="TN 01 N 2454"
+    print(Transportdetails,TicketNumber)
+    return
+traveldetails()
+
+def ElectricityBill():
+    Name="ahamed"
+    SelectAccount="1-121-008-54"
+    Billingdate="20/06/2012"
+    SubDivision=1
+    RR=12100854
+    Address="no 11"
+    Reading=42260
+    DueDate="21/06/2012"
+    unitsconsumed=1310
+    BillAmount=6498
+    paymentDate="30/06/2012"
+    print(Name,Billingdate)
+    return
+ElectricityBill()
+
+def aadharcardd(Fname,Lname,DOB,phone,address,fathername,religion,age):
+    print(Fname,Lname,DOB,phone,address,fathername,religion,age)
+    return
+aadharcardd("ahamed","k","24/01/2001",9597916931,"No11","kamaal","XXX",20)
+aadharcardd("akash","k","24/01/2001",9597916931,"No11","kamaal","XXX",20)
+
+class Phonebill:
+    name="nithesh"
+    Accountno=123872478235876
+    Billingdate="20/06/2012"
+    phoneno=43223293273
+    DueDate="21/06/2012"
+    paymentDate="30/06/2012"
+    Address="no 11"
+nithesh=Phonebill()
+print(nithesh.name,nithesh.Accountno,nithesh.phoneno)
+
+def LibraryDetails():
+    BookID=12345634
+    Bookname=" C Programming"	
+    BookAuthor="Dennis Ritche"
+    IssueDate="14/01/2012"
+    DueDate="13/02/2012"
+    IDNo="2008Ec027"
+    Name="Saravanan"
+    Returnon="25/02/2012"
+    Fine=12
+    print(BookID,Bookname)
+    return
+LibraryDetails()
+
+def clothes():
+    Brand="Scott International"
+    ProductCode="APPSCOTT-INTERNSWIT610835D77A441"
+    Color="Black"
+    Size="S"
+    Material="Cotton "
+    Occasion="Casual"
+    Pattern="Solid"
+    Sleeve="Full Sleeves"
+    NeckType="Hooded"
+    Fit="Slim"
+    Gender="Men"
+    print(Brand,ProductCode,Pattern,Gender)
+    return
+clothes()
+
+def laptopDetails():
+    OS="iOS 9, upgradable to iOS 9.2"
+    Chipset="Apple A9"
+    CPU="Dual-core 1.84 GHz Twister" 
+    GPU="PowerVR GT7600 (six-core graphics)"
+    Model="iphone"
+    Manufactuer="Apple"
+    Os="ios 4.0"
+    Processor="1 GHZ"
+    RAMMemory="512Mb"
+    Keyboard="Software"
+    onboardstorage="16GB/32Gb"
+    Flash="LED"
+    VideoCallcamera="VGA"
+    VideoRecording="720 F"
+    NoiceCancelling="2 microphones"
+    Expandablestorage="No"
+    print(Model,Chipset,Manufactuer,VideoRecording,NoiceCancelling,Expandablestorage)
+    return
+laptopDetails()
+
+class LicenseDetail:
+    Lastname="kumar"
+    Firstname="Pavan"
+    Middlename="Bijjavaram"
+    Driverlicensenumber="ka50201500006939"
+    Driverlicensestate="karnataka"
+    Driverslicensecountry="india"
+    Civiliantype="around india"
+    Employeetype="software engineer"
+    Dateofbirth="12-07-1992"
+    Cityofbirth="rajampet"
+kumar=LicenseDetail()
+print(kumar.Lastname,kumar.Firstname,kumar.Middlename,kumar.Driverlicensenumber)
+
+Database=["din001","din002","din003","din004"]
+def id(disysid,name):
+    if(disysid in Database):
+        print(name,disysid)
+    return 0
+id("din002","ahamed")
+id("din003","akash")
+id("din005","sb")
+
+class cricketscore:
+    team="india"
+    rohit=100
+    virat=55
+    dhawan=21
+    iyer=9
+    surya=8
+    hardik=13
+    bumrah="not played"
+    bhuvi="notplayed"
+    chahal="notplayed"
+    shami="notplayed"
+    patel="notplayed"
+    totalRuns=206
+    wickets=4
+india=cricketscore()
+print(india.team,india.totalRuns)
+
+class nz(cricketscore):
+    name="newzealand"
+    guptil=51
+    conway=5
+    kanewilliamson=0
+    neesham=3
+    philips=0
+    seifert=17
+    boult=2
+    timsouthee=9
+    ravinder=2
+    isodhe=7
+    ferguson=14
+    totalRun=111
+    wicket="All Out"                                                                                                                                 
+newzealand=nz()
+print(newzealand.name,newzealand.guptil,newzealand.boult,newzealand.totalRun)
+
+def pancardDetails():
+    name="ahamed"
+    lname="k"
+    dob="24/01/2001"
+    city="pudukkottai"
+    panno="DLF72727"
+    mobno=9727262626
+    Cityofbirth="kdjj"
+    print(name,lname,dob,panno,Cityofbirth,mobno)
+    return
+pancardDetails()
+
+def appearanceinfo():
+    Weight=55
+    Hight=5.8
+    Eyecolour="brown"
+    Gender="male"
+    Homeaddress="#6/96,rajampet,kadapa."
+    Homephone=975545445
+    Mobile=8553577745
+    State="andhrapradesh"
+    County="india"
+    print(Weight,Hight,Eyecolour,Gender,Homeaddress,Mobile,County)
+    return
+appearanceinfo()
+
+def movie():
+    Theatrename="PSS multiplex"
+    screen="screen 3"
+    moviename="JVT [ C,CPP]"
+    moviecertification="U"
+    classs="first"
+    priceperticket="Rs.1050.00"
+    Numberoftickets=5
+    seatnumbers="c1,c2,c3,c4,c5"
+    Totalamount="Rs.750.00"
+    print(Theatrename,screen,moviename,moviecertification,priceperticket,seatnumbers,Totalamount)
+    return
+movie()
+
+class CreatingGoogleAccount:
+    FirstName="venkatesh"
+    LastName="d b"
+    ChooseUsername="jvt"
+    CreataPassword="balu"
+    ConfirmYourPassword="balu"
+    Birthday="2-6-1986"
+    Gender="male"
+    Mobile=9900367097
+    Yourcurrentemailaddress="venkatesh.db@gmail.com"
+venkatesh=CreatingGoogleAccount()
+print(venkatesh.FirstName,venkatesh.LastName,venkatesh.CreataPassword,venkatesh.ConfirmYourPassword,venkatesh.Birthday,venkatesh.Mobile,venkatesh.Yourcurrentemailaddress)
+    
+def currentbill():
+    website="www.tnebnet.org"
+    tnebusername="agilan"
+    password=1234567
+    consumernumber=23456123
+    Billinstatus="paid/unpaid"
+    modeofpayment="netbanking"
+    choosebank="sbi"
+    username="kumar007"
+    passwords=12345678
+    Transactionno="-18cv21828578437"
+    paymentstatus="successful"
+    print(website,tnebusername,password,Billinstatus,consumernumber,modeofpayment,choosebank,passwords,paymentstatus)
+    return
+currentbill()
+
+
+def VisitingCardDetails():
+    name="naresh"
+    mailid="naresh.jvt@gmail.com"
+    contactno="+91 9944860792"
+    companyname="jvt"
+    designation="programmer"
+    address="30/3 2nd floor hal3rd stage new thippasandra bangalore-560075."
+    print(name,mailid,contactno,companyname,designation,address)
+    return
+VisitingCardDetails()
+
+def Electricbillpaidvianetbanking():
+    website="www.tnebnet.org"
+    tnebusername="agilan"
+    passwords=1234567
+    consumernumber=23456123
+    Billingstatus="paid/unpaid"
+    modeofpayment="netbanking"
+    choosebank="sbi"
+    username="kumar007"
+    password=1234567
+    Transactionno="18cv21828578437"
+    paymentstatus="successful"
+    print(website,tnebusername,passwords,consumernumber,Billingstatus,modeofpayment,paymentstatus,Transactionno)
+    return
+Electricbillpaidvianetbanking()
+
+class computerupsspecifications:
+    model="exide-digital600"
+    ipvoltage="230v ac"
+    frequency="50hz"
+    opvoltage="230v ac"
+    batterytype="sealed maintenance free"
+    batterycapacity="12volt 7Ah"
+    batterybackup="12 to 20 mints"
+    rechargetime="5 to 6 hours"
+    weight="6.1 kg"
+exide=computerupsspecifications()
+print(exide.model,exide.ipvoltage,exide.frequency,exide.batterytype,exide.batterybackup,exide.rechargetime,exide.weight)
+
+def TvDetailsSpecification():
+    Model="LG55LHX"
+    LEDlighting="Backlight w/Local Dimming"
+    Sizes="55 inches"
+    Typeof240Hz="scanning Backlight"
+    WirelessHDMI="yes"
+    USB="USB 2.0 (pictures, music,videos)"
+    Builtnvideoservice="youtube"
+    price=55000
+    print(Model,LEDlighting,Sizes,WirelessHDMI,USB,Builtnvideoservice,price)
+    return
+TvDetailsSpecification()
+
+def speedpost():
+    PostofficeDetails=" New Thipasundra<423203>"
+    trackingNumber="EM423395510IN"
+    CounterNo=1
+    opcode="012"
+    Fromaddress="xxxxxx"
+    ToAddress="xxxxxx"
+    wgt="20grms"
+    Amt="39.00"
+    dateTime="08/04/2013 16:01"
+    Taxes="Rs.4.00"
+    print(PostofficeDetails,trackingNumber,CounterNo,opcode,Fromaddress,ToAddress,dateTime,Taxes)
+    return
+speedpost()
+
+class LICPOLICY:
+    name="saravanan"
+    BranchCode=309
+    Date="07/11/2013-12:51"
+    AddressofBranchoffice="no11"
+    Totalcost=6713
+    PolicyNo=364164915
+    Doc="02/04/2009"
+    DueDate="04/13"
+    Premiumamount=6426.00 
+    LateFee=287.20
+    Loaninterest="Due 00/0000 to 00/0000"
+    TotalRs=6713.20
+    NextDue="04/2014"
+saravanan=LICPOLICY()
+print(saravanan.name,saravanan.Date,saravanan.PolicyNo)
+
+def coporatedetails():
+    Companyname="JVT"
+    Designation="Programmer"
+    Salary="2.3 or 230000"
+    Location="Bangalore"
+    bond="2 years"
+    skillsrequired="c/c++ and python"
+    experience="fresher"
+    print(Companyname,Designation,Salary,Location,skillsrequired,experience)
+    return
+coporatedetails()
+
+class office:
+    Name="Jai Venkateswara Technologies"
+    EducationalQualification="B TECH MCA MBA BSC MSC"
+    DateOfBirth="2/6/1988"
+    CommunicationAddress="233/3 Ground floor new thippasandra"
+    ResidenceNumber=8025216666
+    Mobile=9900367097
+    Email="venkatesh.db@gmail.com"
+    TotalITExp="1 years"
+    SkillRelevantExperience="C,CPP all Lang  & 1 years"
+    ReportingManager="Venkatesh"
+    PANCARD="asu675901f"
+
+jai=office()
+print(jai.Name,jai.EducationalQualification,jai.DateOfBirth,jai.CommunicationAddress,jai.ResidenceNumber,jai.Email,jai.SkillRelevantExperience,jai.PANCARD)
+
+def ticket():
+    TicketType="Special Entry Darshan"
+    Date="Dec 1st"
+    Day="Tuesday"
+    Time="3:30 Am "
+    PerSlotTickets=2000
+    BookingNo="IS151110080016"
+    NameofthePilgrim="venkatesh"
+    OrderNo=10600013554
+    Email="venkateshprofessional7@gmail.com"
+    Amountinfigures=220.00
+    ProofofID=":Aadhaar Card 733498928758"
+    BookedDateTime="11062015 11:36:46"
+    NoofPersons=1
+    NameoftheSevaDarshan="Archana"
+    ReportingTime="4:00 AM"
+    PerformanceDateTime="12012015 AM 4:30:00"
+    PrivilegestotheSeva="Two Small Laddu"
+    BookedTime="11:36:46"
+    AccommodationType="Rs 500 Tirumala"
+    Available=350
+    NoofTickets=1
+    Rate="50 to 2000"
+    print(TicketType,Date,Day,Time,PerSlotTickets,BookingNo,NameofthePilgrim,OrderNo,BookedDateTime,ReportingTime,PrivilegestotheSeva,AccommodationType,Available)
+    return
+ticket()
+
+class venky:
+    Name="Mr. venkatesh"
+    Age=25
+    Gender="Male"
+    EmailAddress="venkatesh.db@gmail.com"
+    Address="BEML Main Road"
+    City="Bangalore"
+    State="Karnataka"
+    Pincode=560075
+    Country="India"
+    MobileNo=9900367097
+    PhotoID="Passport"
+    PhotoIDNo="	G3839975"
+venkadesh=venky()
+print(venkadesh.Name,venkadesh.Age,venkadesh.Gender,venkadesh.EmailAddress,venkadesh.Country,venkadesh.PhotoID,venkadesh.PhotoIDNo,venkadesh.MobileNo,venkadesh.Address)
+
+def identify(name,age,gender,height):
+    print(name,age,gender,height)
+    return
+identify("akashini",28,"female",5.5)
+identify("prabu",27,"male",5.7)
+identify("raja",87,"male",5.9)
+
+def twowheeler():
+    vehiclename="activa"
+    mileage="40kms"
+    price=88000
+    fueltype="petrol"
+    storagespace="10litres"
+    brandname="honda"
+    breaktype="drumbreak"
+    tyre="ceat"
+    speed="max 86"
+    colorsavailable="black,blue,white,grey"
+    print(vehiclename,mileage,price,storagespace,fueltype,brandname,tyre,colorsavailable)
+    return
+twowheeler()
+
+class collegedetails:
+    clgename="psna"
+    degree="BE"
+    stream="ECE"
+    semesterOnecgpa=7.8
+    semesterTwocgpa=7.5
+    semesterThreecgpa=7.2
+    semesterFourcgpa=7.0
+    semesterFivecgpa=7.8
+    semesterSixcgpa=7.9
+    semesterSevencgpa=7.6
+    semesterEightcgpa=8.9
+    overallfees=800000
+    
+anbu=collegedetails()
+print(anbu.clgename,anbu.degree,anbu.stream,anbu.semesterOnecgpa,anbu.semesterTwocgpa,anbu.semesterThreecgpa,anbu.semesterFourcgpa,anbu.semesterFivecgpa,anbu.semesterSixcgpa,anbu.semesterSevencgpa,anbu.semesterEightcgpa)
+    
+
+def school():
+    sslcschoolname="psk school"
+    sslcmark=480
+    percentage="96%"
+    passoutyear=2016
+    hscschoolname="rsk school"
+    hscmark=1080
+    percentage="90"
+    Hscpassoutyear=2018
+    print(sslcschoolname,sslcmark,percentage,passoutyear,hscschoolname,hscmark,percentage,Hscpassoutyear)
+    return
+
+school()
+
+class creatingGoogleAccount:
+    FirstName="venkatesh"
+    LastName="d b"
+    ChooseUsername="jvt"
+    CreatePassword="balu"
+    ConfirmYourPassword="balu"
+    Birthday="2-6-1986"
+    Gender=" male "
+    Mobile=9900367097
+    Yourcurrentemailaddress="venkatesh.db@gmail.com"
+
+venkadesh=creatingGoogleAccount()
+print(venkadesh.FirstName,venkadesh.LastName,venkadesh.ChooseUsername,venkadesh.CreatePassword,venkadesh.ConfirmYourPassword,venkadesh.Birthday,venkadesh.Gender,venkadesh.Mobile,venkadesh.Yourcurrentemailaddress)
+
+def StateBankOfIndia():
+    BankName="SBI Bank"
+    Date="29/05/14"
+    Time="19:48"
+    ATMNo="SJNBL48"
+    CARDNo="xxxx xxxxx xxxx 0516"
+    BRANCHNAME="Bangalore Main Branch"
+    TxnNo="2907"
+    Responsecode=72
+    WithDrawl=500.00
+    FromAC="xxxxxxxxxx05 xx01"
+    ModRS="0.00"
+    AvailableBalRs="1000.00"
+    Website="www.statebankof india.com"
+    print(BankName,Date,Time,ATMNo,CARDNo,BRANCHNAME,TxnNo,Responsecode,WithDrawl,FromAC,ModRS,AvailableBalRs,Website)
+    return
+
+StateBankOfIndia()
+
+
