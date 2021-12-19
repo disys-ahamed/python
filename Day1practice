@@ -527,4 +527,20 @@ def StateBankOfIndia():
 
 StateBankOfIndia()
 
+class LICPOLICY:
+    name="saravanan"
+    BranchCode=309
+    Date="07/11/2013-12:51"
+    AddressofBranchoffice="no11"
+    Totalcost=6713
+    PolicyNo=364164915
+    Doc="02/04/2009"
+    DueDate="04/13"
+    Premiumamount=6426.00 
+    LateFee=287.20
+    Loaninterest="Due 00/0000 to 00/0000"
+    TotalRs=6713.20
+    NextDue="04/2014"
+saravanan=LICPOLICY()
+print(saravanan.name,saravanan.Date,saravanan.PolicyNo)
 
