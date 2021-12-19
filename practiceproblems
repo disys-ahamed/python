@@ -1,0 +1,184 @@
+class phonetracking:
+    def __init__(self):
+        sel.workORstudy =
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("\n")
+        print("Time used  in a day \n")
+        print("Watsapp ",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used")
+        print("Phone --",self.Phone["screen_on_time"],"mins used","\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened"],"times opened")
+        print("Insatgram --",self.Insatgram["times_opened"],"times opened")
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    def monday(self):
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("Time used  in a day \n")
+        print("Watsapp --",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used")
+        print("Phone --",self.Phone["screen_on_time"],"mins used","\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened"],"times opened")
+        print("Insatgram --",self.Insatgram["times_opened"],"times opened")
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    def tuesday(self):
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("Time used  in a day \n")
+        print("Watsapp --",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used","mins used")
+        print("Phone --",self.Phone["screen_on_time"],"\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened"],"times opened")
+        print("Insatgram --",self.Insatgram["times_opened"],"times opened")
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    def wednesday(self):
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("Time used  in a day \n")
+        print("Watsapp --",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used")
+        print("Phone --",self.Phone["screen_on_time"],"mins used","\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened"],"times opened")
+        print("Insatgram --",self.Insatgram["times_opened"],"times opened")
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    def thursday(self):
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("Time used  in a day \n")
+        print("Watsapp --",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used")
+        print("Phone --",self.Phone["screen_on_time"],"mins used","\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened"],"times opened")
+        print("Insatgram --",self.Insatgram["times_opened"],"times opened")
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    def friday(self):
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("Time used  in a day \n")
+        print("Watsapp --",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used")
+        print("Phone --",self.Phone["screen_on_time"],"mins used","\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened","times opened"])
+        print("Insatgram --",self.Insatgram["times_opened","times opened"])
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    def saturday(self):
+        self.Watsapp   = {"screen_on_time":int(input("enter whatsapp screen-on time in mins")), "notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Insatgram ={"screen_on_time":int(input("enter insta screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Snapchat  = {"screen_on_time":int(input("enter Snapchat screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Phone     ={"screen_on_time":int(input("enter phone screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        self.Youtube   ={"screen_on_time":int(input("enter youtube screen-on time in mins")),"notification_recived":int(input("enter notification received in numbers")),"times_opened":int(input("enter app opened count in numbers"))}
+        print("Time used  in a day \n")
+        print("Watsapp --",self.Watsapp["screen_on_time"],"mins used")
+        print("Snapchat --",self.Snapchat["screen_on_time"],"mins used")
+        print("Insatgram --",self.Insatgram["screen_on_time"],"mins used")
+        print("Youtube --",self.Youtube["screen_on_time"],"mins used")
+        print("Phone --",self.Phone["screen_on_time"],"mins used","\n")
+        print("Notification recived in a day \n")
+        print("Watsapp --",self.Watsapp["notification_recived"],"notification received")
+        print("Snapchat --",self.Snapchat["notification_recived"],"notification received")
+        print("Insatgram --",self.Insatgram["notification_recived"],"notification received")
+        print("Youtube --",self.Youtube["notification_recived"],"notification received")
+        print("Phone --",self.Phone["notification_recived"],"notification received","\n")
+        print("Apps opened in a day \n")
+        print("Watsapp --",self.Watsapp["times_opened"],"times opened")
+        print("Snapchat --",self.Snapchat["times_opened"],"times opened")
+        print("Insatgram --",self.Insatgram["times_opened"],"times opened")
+        print("Youtube--",self.Youtube["times_opened"],"times opened")
+        print("Phone --",self.Phone["times_opened"],"times opened","\n")
+    #def time_used(self):
+call = phonetracking()
+call.monday()
+call.tuesday()
+call.wednesday()
+call.thursday()
+call.friday()
+call.saturday()
+#call.time_used()
+
+                      
+a=33++44
+print(a)
